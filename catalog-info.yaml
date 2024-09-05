@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jag-coco-v1
+  title: jag-coco-v1
+  description: Our first common component
+  annotations:
+    github.com/project-slug: bcgov/demo-coco-docs
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: PSSG
+    bcgovpubcode.gov.bc.ca/product_name: Coco v1
+    bcgovpubcode.gov.bc.ca/product_acronym: COv1
+    developer.gov.bc.ca/source_template: default/docs-template
+    backstage.io/source-template: template:default/docs-template
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:bcgov/ag-pssg-emerald
